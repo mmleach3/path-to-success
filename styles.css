@@ -1,0 +1,320 @@
+/* -------------------- CSS BY Mellani Leach -------------------------------------- */
+
+/* -------------------- IMPORTED FONTS -------------------------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap");
+
+/*-------------------- CSS RESET ---------------------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+  v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* -------------------- ROOT VARIABLES --------------------------------------- */
+:root {
+  /* Colors and fonts?*/
+  --teal: #4ca7c0;
+  --purple: #484fb7;
+  --lavender: #6b8fe7;
+  --yellow: #e9bb57;
+  --pink: #d9526f;
+  --dark-grey: #1e1e1e;
+  --white: #ffffff;
+}
+
+/* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 450px;
+  font-family: Inter;
+  background-color: var(--purple);
+}
+
+header,
+footer {
+  width: 100%;
+  background-color: var(--lavender);
+}
+
+h1 {
+  color: var(--white);
+  font-size: 3em;
+  text-align: center;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+header p {
+  color: var(--white);
+  text-align: center;
+  font-style: italic;
+  background-color: var(--pink);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+h1,
+h2 {
+  font-family: kavoon;
+}
+
+nav h2 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+main h2 {
+  padding: 10px;
+  color: var(--white);
+}
+
+h3 {
+  font-size: 1.5em;
+  padding-bottom: 10px;
+}
+
+main h3 {
+  color: var(--yellow);
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+main p{
+  line-height: 25px;
+}
+
+h4 {
+  font-size: 1.15em;
+  color: var(--purple);
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav {
+  background-color: var(--yellow);
+  position: sticky;
+  display: inline-block;
+}
+
+#personal,
+#career,
+#relationship,
+#supportive,
+#focused,
+#interactive,
+#flexible {
+  background-color: var(--white);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+#choose{
+  background-color: var(--pink);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  display: grid;
+
+}
+#personalized-approach{
+  background-color: var(--teal);
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#proven-results{
+  background-color: var(--lavender);
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#supportive-environment{
+  background-color: var(--yellow);
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#flexible-options{
+  background-color: var(--white);
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+th{
+  background-color: var(--yellow);
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+table{
+  background-color: var(--yellow);
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 3px solid var(--yellow);
+}
+
+#first-step{
+  background-color: var(--pink);
+  color: var(--white);
+}
+
+footer{
+  color: var(--white);
+  text-align: center;
+  padding: 60px;
+}
+
+/*-------------------- MEDIA QUERY (medium) --------------------------------*/
+@media (min-width: 620px) {
+}
+
+/*-------------------- MEDIA QUERY (large) ------------------------------------*/
+@media (min-width: 950px) {
+}
+
+/*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
+@media (min-width: 1280px) {
+}
