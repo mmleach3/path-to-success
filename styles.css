@@ -197,7 +197,6 @@ h2 {
 }
 
 main h2 {
-  padding: 10px;
   color: var(--white);
 }
 
@@ -287,6 +286,7 @@ th{
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
+  padding: 20px;
 }
 
 table{
@@ -296,10 +296,34 @@ table{
   border: 3px solid var(--yellow);
 }
 
+tbody td{
+  text-align: center;
+  border: 2px solid var(--yellow);
+  background-color: var(--white);
+  padding: 20px;
+}
+
 #first-step{
   background-color: var(--pink);
   color: var(--white);
+  padding: 20px;
+
 }
+
+aside p a{
+  border: 0;
+  line-height: 2.5;
+  padding: 0 10px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--dark-grey);
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow:  1px 1px 1px var(--dark-grey);
+}
+
 
 footer{
   color: var(--white);
