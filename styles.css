@@ -162,7 +162,6 @@ body {
 
 header,
 footer {
-  width: 100%;
   background-color: var(--lavender);
 }
 
@@ -190,6 +189,13 @@ h2 {
 
 nav h2 {
   font-size: 1.5em;
+}
+
+nav{
+  float: right;
+  border-radius: 10px;
+  padding: 10px;
+
 }
 
 h2 {
@@ -291,7 +297,7 @@ th{
 
 table{
   background-color: var(--yellow);
-  table-layout: fixed;
+  justify-content: center;
   border-collapse: collapse;
   border: 3px solid var(--yellow);
 }
