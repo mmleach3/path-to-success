@@ -195,15 +195,18 @@ nav{
   float: right;
   border-radius: 10px;
   padding: 10px;
-
 }
 
 h2 {
   font-size: 2em;
 }
+#services > h2{
+  padding: 10px;
+}
 
 main h2 {
   color: var(--white);
+  padding: 10px;
 }
 
 h3 {
@@ -246,46 +249,69 @@ nav {
 #interactive,
 #flexible {
   background-color: var(--white);
+  display: block;
   padding: 20px;
   margin: 20px;
   border-radius: 20px;
+}
+img{
+  padding: 10px;
 }
 
 #choose{
   background-color: var(--pink);
-  margin: 20px;
-  padding: 20px;
-  border-radius: 20px;
-  display: grid;
-
+  padding: 10px;
 }
-#personalized-approach{
+
+#choose > h2{
+  padding-bottom: 20px;
+  grid-column: 1/-1;
+}
+
+.reasons{
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1em;
+}
+
+#choose li:first-child {
   background-color: var(--teal);
-  display: inline-block;
+  font-weight: bolder;
   padding: 20px;
+  height: 100px;
+  text-align: center;
   border-radius: 10px;
 }
 
-#proven-results{
+#choose li:nth-child(2){
   background-color: var(--lavender);
-  display: inline-block;
+  font-weight: bolder;
+  text-align: center;
   padding: 20px;
   border-radius: 10px;
 }
 
-#supportive-environment{
+#choose li:nth-child(3){
   background-color: var(--yellow);
-  display: inline-block;
+  font-weight: bolder;
+  text-align: center;
   padding: 20px;
   border-radius: 10px;
 }
 
-#flexible-options{
+#choose li:last-child{
   background-color: var(--white);
-  display: inline-block;
+  font-weight: bolder;
+  text-align: center;
   padding: 20px;
   border-radius: 10px;
 }
+
+#pricing h2{
+  padding: 10px;
+}
+
 
 th{
   background-color: var(--yellow);
@@ -297,9 +323,9 @@ th{
 
 table{
   background-color: var(--yellow);
-  justify-content: center;
-  border-collapse: collapse;
-  border: 3px solid var(--yellow);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
 }
 
 tbody td{
@@ -312,29 +338,37 @@ tbody td{
 #first-step{
   background-color: var(--pink);
   color: var(--white);
+  font-weight: bolder;
   padding: 20px;
+  display: block;
 
 }
 
 aside p a{
   border: 0;
   line-height: 2.5;
-  padding: 0 10px;
+  margin: auto;
+  display: block;
+  width: 100%;
+  padding: 10px;
   text-align: center;
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
   color: var(--dark-grey);
   background-color: var(--white);
-  border-radius: 10px;
-  box-shadow:  1px 1px 1px var(--dark-grey);
+  border-radius: 20px;
+  box-shadow:  3px 3px 3px var(--dark-grey);
 }
 
 
 footer{
   color: var(--white);
   text-align: center;
-  padding: 60px;
+  padding: 40px;
+  margin: auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
