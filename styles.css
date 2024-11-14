@@ -157,7 +157,7 @@ table {
 body {
   min-width: 450px;
   font-family: Inter;
-  background-color: var(--purple);;
+  background-color: var(--purple);
 }
 
 footer {
@@ -205,23 +205,23 @@ nav {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-ul{
+ul {
   list-style: none;
   display: none;
 }
-a{
+a {
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   background-color: var(--teal);
 }
 
 h2 {
   font-size: 2em;
-  padding: 10px
+  padding: 10px;
 }
-#services > h2{
+#services > h2 {
   padding: 10px;
 }
 
@@ -240,7 +240,7 @@ main h3 {
   padding-left: 10px;
 }
 
-main p{
+main p {
   line-height: 25px;
 }
 
@@ -250,8 +250,6 @@ h4 {
   font-weight: bold;
   padding-bottom: 10px;
 }
-
-
 
 #personal,
 #career,
@@ -266,21 +264,21 @@ h4 {
   margin: 20px;
   border-radius: 20px;
 }
-img{
+img {
   padding: 10px;
 }
 
-#choose{
+#choose {
   background-color: var(--pink);
   padding: 10px;
 }
 
-#choose > h2{
+#choose > h2 {
   padding-bottom: 20px;
   grid-column: 1/-1;
 }
 
-.reasons{
+.reasons {
   display: flex;
   gap: 1em;
 }
@@ -299,7 +297,7 @@ img{
   border-radius: 10px;
 }
 
-#choose li:nth-child(2){
+#choose li:nth-child(2) {
   background-color: var(--lavender);
   font-weight: bolder;
   text-align: center;
@@ -307,7 +305,7 @@ img{
   border-radius: 10px;
 }
 
-#choose li:nth-child(3){
+#choose li:nth-child(3) {
   background-color: var(--yellow);
   font-weight: bolder;
   text-align: center;
@@ -315,7 +313,7 @@ img{
   border-radius: 10px;
 }
 
-#choose li:last-child{
+#choose li:last-child {
   background-color: var(--white);
   font-weight: bolder;
   text-align: center;
@@ -323,12 +321,11 @@ img{
   border-radius: 10px;
 }
 
-#pricing h2{
+#pricing h2 {
   padding: 10px;
 }
 
-
-th{
+th {
   background-color: var(--yellow);
   font-weight: bold;
   text-align: center;
@@ -336,21 +333,21 @@ th{
   padding: 20px;
 }
 
-table{
+table {
   background-color: var(--yellow);
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
 }
 
-tbody td{
+tbody td {
   text-align: center;
   border: 2px solid var(--yellow);
   background-color: var(--white);
   padding: 20px;
 }
 
-#first-step{
+#first-step {
   background-color: var(--pink);
   color: var(--white);
   font-weight: bolder;
@@ -358,7 +355,7 @@ tbody td{
   display: block;
 }
 
-aside p a{
+aside p a {
   border: 0;
   line-height: 2.5;
   margin: 10px;
@@ -372,15 +369,14 @@ aside p a{
   color: var(--dark-grey);
   background-color: var(--white);
   border-radius: 20px;
-  box-shadow:  3px 3px 3px var(--dark-grey);
+  box-shadow: 3px 3px 3px var(--dark-grey);
 }
-
 
 small {
   font-size: 0.75em;
 }
 
-footer{
+footer {
   color: var(--white);
   text-align: center;
   padding: 40px;
@@ -389,37 +385,35 @@ footer{
   border-bottom-right-radius: 10px;
 }
 
-
-
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 @media (min-width: 620px) {
-  #one-on-one{
+  #one-on-one {
     display: inline-grid;
     grid-template-columns: 1fr 1fr;
     /* grid-template-rows: 1fr 1fr; */
   }
 
-  #one-on-one h3{
+  #one-on-one h3 {
     grid-column: 1 / span 2;
   }
-  #relationship{
-    grid-column: 1/ span 2;
+  #relationship {
+    grid-column: 1 / span 2;
   }
 
-  #group{
+  #group {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
-  #group h3{
+  #group h3 {
     grid-column: 1 / span 2;
   }
-  #choose{
+  #choose {
     display: flex;
     flex-direction: column;
   }
 
-  #choose h2{
+  #choose h2 {
     grid-column: 1 / span 2;
   }
 
@@ -433,30 +427,28 @@ footer{
     grid-template-columns: 1fr 1fr;
   }
 
-  #pricing h2{
+  #pricing h2 {
     grid-column: 1 / span 2;
   }
 
-  #first-step{
+  #first-step {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
-  #first-step h2{
-    grid-column: 1/ span 2;
+  #first-step h2 {
+    grid-column: 1 / span 2;
   }
 }
 
-footer{
+footer {
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
 }
 
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
 @media (min-width: 950px) {
-
-
-  nav ul{
+  nav ul {
     display: flex;
     flex-direction: row;
     font-weight: bold;
@@ -464,11 +456,11 @@ footer{
     padding: 10px;
   }
 
-  a:hover{
+  a:hover {
     background-color: var(--teal);
   }
 
-  ul{
+  ul {
     color: var(--dark-grey);
     list-style: none;
     display: flex;
@@ -476,14 +468,14 @@ footer{
     gap: 5em;
   }
 
-  nav h2{
+  nav h2 {
     display: none;
   }
 
-  #services{
+  #services {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    }
+  }
 
   #services section > section {
     margin: 10px;
@@ -495,38 +487,35 @@ footer{
     font-size: 1.25em;
   }
 
-  #services h2{
+  #services h2 {
     grid-column: 1 / span 4;
   }
 
-  #one-on-one{
+  #one-on-one {
     display: flex;
     flex-direction: column;
   }
 
-  #group{
+  #group {
     display: flex;
     flex-direction: column;
   }
 
-
-  #pricing{
+  #pricing {
     display: grid;
     grid-template-rows: auto 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
-
   }
-  #pricing h2{
+  #pricing h2 {
     grid-column: 1 / span 4;
   }
-
 }
 
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
 @media (min-width: 1280px) {
 }
-html{
+html {
   margin-right: 80px;
   margin-left: 80px;
 }
